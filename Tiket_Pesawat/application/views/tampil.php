@@ -38,11 +38,11 @@ foreach($pembelian as $u){
             <?php echo anchor ('tiket_pesawat/hapus/'.$u->no_pembeli,'Hapus'); ?>
         </td>
     </tr>
-</table>
-<br><center> <a href="index">Tambah</a></center></br>
     <?php
 }
 ?>
+</table>
+<br><center> <a href="index">Tambah</a></center></br>
 
 
 </body>
